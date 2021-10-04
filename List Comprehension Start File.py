@@ -100,7 +100,8 @@ lower = [x.lower() for x in ['A','B','C']]
 print(lower)
 
 #Output 1 - ['a', 'b', 'c']
-
+lower = [x.upper() for x in ['a','b','c']]
+print(lower)
 
 # Output 2 - ['A', 'B', 'C']
 
