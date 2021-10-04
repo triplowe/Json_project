@@ -96,7 +96,8 @@ print(items)
 
 
 # 5) Let's show how easy you can convert lower case / upper case letters.
-
+lower = [x.lower() for x in ['A','B','C']]
+print(lower)
 
 #Output 1 - ['a', 'b', 'c']
 
