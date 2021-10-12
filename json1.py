@@ -35,5 +35,5 @@ my_layout = Layout(title="Global Earthquakes 1 Day")
 
 fig = {'data': data, 'layout' : my_layout}
 
-offline.plot(fig, filename = "globalearthquakes1day.html")
+offline.plot(fig, filename = 'globalearthquakes1day.html')
 
